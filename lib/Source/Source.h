@@ -8,6 +8,7 @@ class source
 {
 private:
     /* data */
+    
 public:
     // VARIABLES
 
@@ -36,7 +37,7 @@ public:
 
     const String PHONE = "+79265340402";
 
-    unsigned long day24 = 86400000;
+    unsigned long day24 = 86400000-213000;     //поправка часов 3мин 33 сек минус в сутки =213сек х 1000мс
 
     // FUNCTIONS
 
